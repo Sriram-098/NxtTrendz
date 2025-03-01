@@ -20,7 +20,7 @@ const Navbar = () => {
         <div className="nav-login-cart">
             <button className="">Login</button>
             <img src={cart_icon} alt="" className="" />
-            <div className="nav-cart-count">0</div>
+            <div className="nav-cart-count">1</div>
         </div>
 
 
