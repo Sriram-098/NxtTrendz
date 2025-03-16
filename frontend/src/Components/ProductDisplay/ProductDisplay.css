@@ -1,0 +1,311 @@
+.productdisplay {
+    display: flex;
+    margin: 50px 170px;
+    gap: 50px;
+}
+
+.productdisplay-left {
+    display: flex;
+    gap: 17px;
+}
+
+.productdisplay-img-list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.productdisplay-img-list img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.productdisplay-img-list img:hover {
+    transform: scale(1.1);
+}
+
+.productdisplay-main-img {
+    width: 500px;
+    height: 600px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.productdisplay-right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.productdisplay-right h1 {
+    font-size: 28px;
+    font-weight: 700;
+    color: #333;
+}
+
+.productdisplay-right-star {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.productdisplay-right-star img {
+    width: 20px;
+    height: 20px;
+}
+
+.productdisplay-right-star p {
+    font-size: 16px;
+    color: #777;
+}
+
+.prouctdisplay-right-prices {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.productdisplay-right-price-old {
+    text-decoration: line-through;
+    color: #a0a0a0;
+}
+
+.productdisplay-right-price-new {
+    color: #e63946;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.productdisplay-right-description {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+}
+
+.productdisplay-right-size h1 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.productdisplay-right-size {
+    display: flex;
+    gap: 10px;
+}
+
+.productdisplay-right-size div {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.productdisplay-right-size div:hover {
+    background: #e63946;
+    color: white;
+}
+
+button {
+    width: 100%;
+    height: 50px;
+    background: #e63946;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #c5283d;
+}
+
+.productdisplay-right-category {
+    font-size: 14px;
+    color: #666;
+}
+
+.productdisplay-right-category span {
+    font-weight: bold;
+    color: #333;
+}
+.productdisplay-right-size {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.productdisplay-right-size h1 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.productdisplay-right-size-options {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.productdisplay-right-size-options div {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.2s;
+    border-radius: 5px;
+}
+
+.productdisplay-right-size-options div:hover {
+    background: #e63946;
+    color: white;
+}
+.productdisplay-right-size {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.productdisplay-right-size h1 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.productdisplay-right-size-options {
+    display: flex;
+    flex-direction: row; /* Ensures sizes appear in a row */
+    gap: 10px;
+}
+
+.productdisplay-right-size-options div {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.2s;
+    border-radius: 5px;
+    background: white;
+}
+
+.productdisplay-right-size-options div:hover {
+    background: #e63946;
+    color: white;
+}
+.productdisplay-right-sizestt{
+    display:flex;
+    justify-content:column;
+}
+.productdisplay-right-size {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Increased gap for better spacing */
+}
+
+.productdisplay-right-size h1 {
+    font-size: 20px;
+    margin-bottom: 5px; /* Added margin to prevent overlap */
+    font-weight: 600;
+}
+
+.productdisplay-right-size-options {
+   
+    flex-direction: row;
+    gap: 15px;
+    flex-wrap: wrap; /* Prevents overflow if needed */
+}
+
+.productdisplay-right-size-options div {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.2s;
+    border-radius: 5px;
+    background: white;
+    font-weight: 500;
+}
+
+.productdisplay-right-size-options div:hover {
+    background: #e63946;
+    color: white;
+}
+.productdisplay-right-size {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    margin-top: 20px; /* Ensures proper spacing */
+}
+
+.productdisplay-right-size h1 {
+    font-size: 20px;
+    margin-bottom: 10px; /* Adds spacing between heading and sizes */
+    font-weight: 600;
+}
+
+.productdisplay-right-size-options {
+    display: flex;
+    flex-direction: row;
+    gap: 12px; /* Adds space between size boxes */
+    flex-wrap: nowrap; /* Ensures sizes stay in a single row */
+}
+
+.productdisplay-right-size-options div {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.2s;
+    border-radius: 5px;
+    background: white;
+    font-weight: 500;
+    
+}
+
+.productdisplay-right-size-options div:hover {
+    background: #e63946;
+    color: white;
+}
+.productdisplay-right-size-options div {
+    width: 60px;
+    height: 60px;
+    border: 2px solid #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 8px;
+    background: #f0f0f0;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #333;
+}

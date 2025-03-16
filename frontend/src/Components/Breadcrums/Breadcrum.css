@@ -1,0 +1,6 @@
+.breadcrum{
+    display:flex;
+    justify-content:start;
+    margin-left:180px;
+    margin-top:10px;
+}
